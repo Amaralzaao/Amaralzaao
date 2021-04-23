@@ -1,6 +1,6 @@
 ### Eai! Bem vindo ao meu perfil 👋
-##### Desenvolvo códigos em Python, Java, Web, entre outros
-###### Instagram: @Amaralzaao | Twitter: @Amaralzaao_
+#### Desenvolvo códigos em Python, Java, Web, entre outros
+##### Instagram: @Amaralzaao | Twitter: @Amaralzaao_
 
 <!--
 **Amaralzao/Amaralzao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
