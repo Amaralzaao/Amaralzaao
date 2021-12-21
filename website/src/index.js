@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import IndexScreen from './screens';
 import './static/css/master.css';
 import {BrowserRouter} from 'react-router-dom'
 import ProjectRoutes from './routes';

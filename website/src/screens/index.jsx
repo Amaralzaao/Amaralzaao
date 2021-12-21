@@ -8,7 +8,6 @@ import call from '../static/memojis/call.png'
 import love from '../static/memojis/love.png'
 import peace from '../static/memojis/peace.png'
 import idea from '../static/memojis/idea.png'
-import { useState } from "react";
 
 //PROJECTS
 
@@ -35,13 +34,13 @@ function Banner() {
     let second = images[Math.floor(Math.random() * images.length)]
     let third = images[Math.floor(Math.random() * images.length)]
 
-    while (first == second) {
+    while (first === second) {
         first = images[Math.floor(Math.random() * images.length)]
     }
-    while (second == third) {
+    while (second === third) {
         second = images[Math.floor(Math.random() * images.length)]
     }
-    while (third == first) {
+    while (third === first) {
         third = images[Math.floor(Math.random() * images.length)]
     }
 
@@ -59,20 +58,6 @@ function Banner() {
     )
 }
 
-function Phrases() {
-
-    let frases = ["Frase sajdasjkbdjkasb djbaj  kdbjsabdasbjdasbdakjdbjsakjda", "Frase 2", "Frase 3"]
-    const [fraseAtual, setFraseAtual] = useState(frases[0])
-
-
-    return (
-        <div className="frase">
-            <i className="fas fa-quote-left"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repudiandae culpa pariatur, vel deserunt iste ex provident quam fugit. </p>
-        </div>
-    )
-}
-
 function About() {
     return (
         <section className="about-index">
@@ -81,13 +66,9 @@ function About() {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, molestias beatae. Voluptate, tenetur sequi autem magni necessitatibus recusandae illum fugiat assumenda amet explicabo error fuga eum quod optio ipsum praesentium.
                 Placeat, cum aperiam. Laudantium, maiores assumenda animi debitis rerum magnam atque quidem reprehenderit at earum dolore, architecto unde! Debitis inventore atque, quod delectus quasi labore at magni aperiam minima nesciunt.
             </p>
-            <a href="#" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
+            <a href="/about" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
         </section>
     )
-}
-
-function SocialNetwork() {
-
 }
 
 function Project() {
@@ -96,12 +77,12 @@ function Project() {
             <div className="project-respire-square">
                 <h3>Respire</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <a href="#" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
+                <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
             </div>
 
             <div className="project-speak-girl-square">
                 <h3>Speak Girl</h3>
-                <a href="#" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
+                <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
             </div>
         </section>
     )
