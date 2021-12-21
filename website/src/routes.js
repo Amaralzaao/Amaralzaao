@@ -7,6 +7,7 @@ export default function Urls() {
         <Routes>
             <Route path="/" element={<IndexScreen/>}/>
             <Route path="/graduation" element={<Graduation/>}/>
+            <Route path="/*" element={<h1>Opss, não encontramos esta página</h1>}/>
         </Routes>
     )
 }
