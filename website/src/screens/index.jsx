@@ -15,7 +15,7 @@ import { useState } from "react";
 
 export default function IndexScreen() {
     return (
-        <main class="index bg-light">
+        <main className="index bg-light">
             <Navbar/>
             <Banner/>
             <About/>
@@ -46,14 +46,14 @@ function Banner() {
     }
 
     return (
-        <section class="banner-index">
+        <section className="banner-index">
             <h1>Carlos Alberto Barcelos do Amaral</h1>
             <p>{currentMessage}</p>
 
-            <div class="memojis">
-                <img src={first}  alt="" srcset="" class="first-memoji"  />
-                <img src={second} alt="" srcset="" class="second-memoji" />
-                <img src={third}  alt="" srcset="" class="third-memoji"  />
+            <div className="memojis">
+                <img src={first}  alt="" srcSet="" className="first-memoji"  />
+                <img src={second} alt="" srcSet="" className="second-memoji" />
+                <img src={third}  alt="" srcSet="" className="third-memoji"  />
             </div>
         </section>
     )
@@ -67,7 +67,7 @@ function Phrases() {
 
     return (
         <div className="frase">
-            <i class="fas fa-quote-left"></i>
+            <i className="fas fa-quote-left"></i>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repudiandae culpa pariatur, vel deserunt iste ex provident quam fugit. </p>
         </div>
     )
@@ -75,13 +75,13 @@ function Phrases() {
 
 function About() {
     return (
-        <section class="about-index">
+        <section className="about-index">
             <h3>Sobre</h3>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, molestias beatae. Voluptate, tenetur sequi autem magni necessitatibus recusandae illum fugiat assumenda amet explicabo error fuga eum quod optio ipsum praesentium.
                 Placeat, cum aperiam. Laudantium, maiores assumenda animi debitis rerum magnam atque quidem reprehenderit at earum dolore, architecto unde! Debitis inventore atque, quod delectus quasi labore at magni aperiam minima nesciunt.
             </p>
-            <a href="#" class="saiba-mais-link">Saiba mais<i class="fas fa-chevron-right"></i></a>
+            <a href="#" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
         </section>
     )
 }
@@ -92,16 +92,16 @@ function SocialNetwork() {
 
 function Project() {
     return (
-        <section class="projects">
-            <div class="project-respire-square">
+        <section className="projects">
+            <div className="project-respire-square">
                 <h3>Respire</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <a href="#" class="saiba-mais-link">Saiba mais<i class="fas fa-chevron-right"></i></a>
+                <a href="#" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
             </div>
 
             <div className="project-speak-girl-square">
                 <h3>Speak Girl</h3>
-                <a href="#" class="saiba-mais-link">Saiba mais<i class="fas fa-chevron-right"></i></a>
+                <a href="#" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
             </div>
         </section>
     )
@@ -109,7 +109,7 @@ function Project() {
 
 function Timeline() {
     return (
-        <section class="timeline">
+        <section className="timeline">
             <div className="timeline-year">
                 <p>20<br/>17</p>
                 <div className="timeline-line"></div>
