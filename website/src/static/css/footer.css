@@ -1,0 +1,13 @@
+footer {
+    background-color: black;
+    min-width: 100vw;
+    height: 50px;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer > :is(p) {
+    padding-left: 5em;
+}

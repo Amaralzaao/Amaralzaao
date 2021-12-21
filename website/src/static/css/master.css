@@ -1,0 +1,9 @@
+.divider {
+    background: gray;
+    min-width: 100%;
+    height: 1px;
+}
+
+.text-light {
+    color: #FFF;
+}

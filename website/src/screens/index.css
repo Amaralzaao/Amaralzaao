@@ -1,0 +1,190 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+.index {
+  min-height: 100vh;
+}
+
+.banner-index {
+  width: 100vw;
+  height: 70vh;
+  background-image: linear-gradient(to top, #FFF, #F1f1f1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-index > :is(h1) {
+  font-size: 2rem;
+}
+
+.memojis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.memojis > :is(img):hover {
+  cursor: pointer;
+}
+
+.first-memoji, .third-memoji {
+  width: 10em;
+  height: 10em;
+  filter: blur(2px);
+}
+
+.second-memoji {
+  width: 20em;
+  height: 20em;
+  filter: drop-shadow(0px 0px 3px #0003);
+}
+
+.frase {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50vw;
+  margin: 1em auto;
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.frase > :is(p) {
+  width: 60%;
+}
+
+.frase > :is(i) {
+  margin-right: 0.5em;
+}
+
+.about-index {
+  text-align: center;
+  color: #242424;
+  margin-bottom: 1em;
+}
+
+.about-index > :is(h3) {
+  font-size: 1.6rem;
+}
+
+.about-index > :is(p) {
+  font-size: 0.9rem;
+  text-align: justify;
+  width: 40%;
+  margin: 0.5em auto;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-respire-square {
+  width: 50%;
+  height: 20em;
+  background-color: black;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:
+    linear-gradient(to bottom, #fff,  #e8e8e8),
+
+    url('../static/assets/respire-xcode.png')
+  ;
+  background-size: cover;
+  margin: 2em 0;
+
+  margin-right: 0.5em;
+}
+
+.project-respire-square > :is(h1,h2,h3) {
+  font-size: 2rem;
+}
+
+.project-respire-square > :is(p) {
+  font-weight: 300;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.project-speak-girl-square {
+  width: 50%;
+  height: 20em;
+  background-color: black;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image:
+    linear-gradient(to bottom right, #1F0A17, #1F0A17),
+    url('../static/assets/speakgirl-xcode.png')
+  ;
+background-size: cover;
+  margin: 2em 0;
+  margin-left: 0.5em;
+}
+
+.project-speak-girl-square > :is(h1,h2,h3) {
+  font-size: 2rem;
+
+}
+
+.saiba-mais-link {
+  text-decoration: none;
+  color: #2997ff; 
+  margin: 0.5em 0;
+}
+
+.saiba-mais-link:hover {
+  text-decoration: underline;
+}
+
+.saiba-mais-link > :is(i) {
+  margin-left: 0.3em;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timeline-year {
+  display: flex;
+  flex-direction: row;
+  width: 50%; 
+  height: fit-content;
+  margin: 1em 0;
+}
+
+.timeline-year > :is(p) {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.timeline-year > :is(small) {
+  font-size: 1.3rem;
+  font-weight: 300;
+  border-left: 2px solid black;
+  padding-left: 0.5em;
+}
+
+.timeline-line {
+  background: black;
+  height: 100%;
+  width: 5px;
+  margin: 0 0.5em;
+}
