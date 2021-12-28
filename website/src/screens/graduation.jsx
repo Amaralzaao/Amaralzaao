@@ -61,11 +61,26 @@ function UdemyCourses() {
 }
 
 function CursosConcluidos() {
-
     return (
         <section className="graduation-academy">
             <h2>Cursos de aperfeiçoamento</h2>
             <small>Concluídos</small>
+
+            <div>
+                <img src={udemy} alt="" />
+                <div>
+                    <h3>Curso de Python 3 do básico ao avançado (Com projetos reais)</h3>
+                    <small>Concluído - 12/2021</small>
+                </div>
+            </div>
+
+            <div>
+                <img src={udemy} alt="" />
+                <div>
+                    <h3>Machine Learning and Artificial Intelligence Using Swift</h3>
+                    <small>Concluído - 12/2021</small>
+                </div>
+            </div>
 
             <div>
                 <img src={udemy} alt="" />
@@ -212,14 +227,6 @@ function CursosEmAndamento() {
         <section className="graduation-academy">
             <h2>Cursos de aperfeiçoamento</h2>
             <small>Em andamento</small>
-
-            <div>
-                <img src={udemy} alt="" />
-                <div>
-                    <h3>Machine Learning and Artificial Intelligence Using Swift</h3>
-                    <small>Andamento</small>
-                </div>
-            </div>
 
             <div>
                 <img src={udemy} alt="" />
