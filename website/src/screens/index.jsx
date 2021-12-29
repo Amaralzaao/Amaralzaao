@@ -34,17 +34,9 @@ function Banner() {
     let second = images[Math.floor(Math.random() * images.length)]
     let third = images[Math.floor(Math.random() * images.length)]
 
-    while (first === second) {
+    while (first == second || first == third || second == third) {
         first = images[Math.floor(Math.random() * images.length)]
         second = images[Math.floor(Math.random() * images.length)]
-    }
-    while (second === third) {
-        second = images[Math.floor(Math.random() * images.length)]
-    }
-    while(third === second) {
-        third = images[Math.floor(Math.random() * images.length)]
-    }
-    while (third === first) {
         third = images[Math.floor(Math.random() * images.length)]
     }
 
@@ -67,10 +59,12 @@ function About() {
         <section className="about-index">
             <h3>Sobre</h3>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, molestias beatae. Voluptate, tenetur sequi autem magni necessitatibus recusandae illum fugiat assumenda amet explicabo error fuga eum quod optio ipsum praesentium.
-                Placeat, cum aperiam. Laudantium, maiores assumenda animi debitis rerum magnam atque quidem reprehenderit at earum dolore, architecto unde! Debitis inventore atque, quod delectus quasi labore at magni aperiam minima nesciunt.
+            Meu nome é Carlos Alberto Barcelos do Amaral, mesmo nome do meu avô paterno, porém adicionou o sobrenome da família da minha mãe, Barcelos.
+            Na grande maioria me chamam de Carlos ou somente Amaral, que gosto muito. 
+            Tenho 17 anos, me formei em 2021 no ensino médio com curso tecnólogo em Análise e Desenvolvimento de Sistemas no SESI/SENAI, contudo, 
+            já estou matriculado na Faculdade SENAI, também com graduação em Análise e Desenvolvimento de Sistemas.
             </p>
-            <a href="/about" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
+            <a href="https://www.linkedin.com/in/carlos-amaral-56a6881b3/" target={"_blank"} className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
         </section>
     )
 }
@@ -80,40 +74,41 @@ function Project() {
         <section className="projects">
             <div>
                 <h3>Financial Helper</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Manage your money in a practice way. </p>
                 {/* <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a> */}
             </div>
 
 
             <div>
                 <h3>Natal Dynamic</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Entrega de presentes para 140 pessoas na grande Florianópolis. </p>
                 {/* <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a> */}
             </div>
 
             <div>
                 <h3>Speak Girl</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>You're not alone, feel free to tell what's happening. </p>
                 {/* <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a> */}
             </div>
 
             <div>
                 <h3>Respire</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Tire um momento para você e respire. </p>
                 {/* <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a> */}
             </div>
 
             <div>
                 <h3>SayNo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>SayNo to any kind of racism, and help other people. </p>
                 {/* <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a> */}
             </div>
 
             <div>
-                <h3>˜</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <h3>SmartImage</h3>
+                <p>Make a new type of qrcode</p>
                 {/* <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a> */}
             </div>
+
             
         </section>
     )

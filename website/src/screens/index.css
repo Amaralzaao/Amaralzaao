@@ -30,10 +30,6 @@
   align-items: center;
 }
 
-.memojis > :is(img):hover {
-  cursor: pointer;
-}
-
 .first-memoji, .third-memoji {
   width: 10em;
   height: 10em;
@@ -91,7 +87,8 @@
 
 .projects > :is(div) {
   width: 49%;
-  height: 20em;
+  max-width: 100%;
+  height: 15em;
   background-color: black;
   color: #000;
   display: flex;
@@ -160,4 +157,58 @@
   height: 100%;
   width: 5px;
   margin: 0 0.5em;
+}
+
+@media (max-width: 768px) {
+  .banner-index {
+    width: 100vw;
+    height: fit-content;
+    padding: 3em 0;
+    text-align: center;
+  }
+
+  .memojis {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100vw;
+  }
+
+  .about-index > :is(p) {
+    font-size: 0.9rem;
+    text-align: justify;
+    width: 90vw;
+    margin: 0.5em auto;
+  }
+
+  .projects > :is(div) {
+    width: 90vw;
+    max-width: 100%;
+    height: 15em;
+    background-color: black;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(to bottom, #fff,  #e8e8e8);
+    background-size: cover;
+    margin: 2em 0;
+    margin-right: 0.5em;
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .timeline-year {
+    display: flex;
+    flex-direction: row;
+    width: 90vw; 
+    height: fit-content;
+    margin: 1em 0;
+  }
 }

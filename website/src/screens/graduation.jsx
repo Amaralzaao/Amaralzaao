@@ -69,11 +69,26 @@ function CursosConcluidos() {
             <div>
                 <img src={udemy} alt="" />
                 <div>
-                    <h3>Curso de Python 3 do básico ao avançado (Com projetos reais)</h3>
+                    <h3>Build a Backend REST API with Python & Django - Advanced</h3>
                     <small>Concluído - 12/2021</small>
                 </div>
             </div>
 
+            <div>
+                <img src={udemy} alt="" />
+                <div>
+                    <h3>Curso de Python 3 do básico ao avançado (Com projetos reais)</h3>
+                    <small>Concluído - 12/2021</small>
+                </div>
+            </div>
+            
+            <div>
+                <img src={udemy} alt="" />
+                <div>
+                    <h3>API Testing with Python 3 & PyTest, Backend Automation 2021</h3>
+                    <small>Concluído - 12/2021</small>
+                </div>
+            </div>
             <div>
                 <img src={udemy} alt="" />
                 <div>
@@ -240,14 +255,6 @@ function CursosEmAndamento() {
                 <img src={udemy} alt="" />
                 <div>
                     <h3>Spring Boot Expert: JPA, RESTFul API, Security, JWT e Mais</h3>
-                    <small>Andamento</small>
-                </div>
-            </div>
-
-            <div>
-                <img src={udemy} alt="" />
-                <div>
-                    <h3>API Testing with Python 3 & PyTest, Backend Automation 2021</h3>
                     <small>Andamento</small>
                 </div>
             </div>
