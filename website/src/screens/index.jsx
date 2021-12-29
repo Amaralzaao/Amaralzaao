@@ -129,6 +129,12 @@ function Timeline() {
             </div>
 
             <div className="timeline-year">
+                <p>20<br/>18</p>
+                <div className="timeline-line"></div>
+                <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, aspernatur impedit distinctio dicta, doloremque sed earum nam quas modi sapiente ullam quos consequatur. Quasi quidem animi voluptate, commodi eaque distinctio?</small>
+            </div>
+
+            <div className="timeline-year">
                 <p>20<br/>19</p>
                 <div className="timeline-line"></div>
                 <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, aspernatur impedit distinctio dicta, doloremque sed earum nam quas modi sapiente ullam quos consequatur. Quasi quidem animi voluptate, commodi eaque distinctio?</small>
