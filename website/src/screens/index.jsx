@@ -36,9 +36,13 @@ function Banner() {
 
     while (first === second) {
         first = images[Math.floor(Math.random() * images.length)]
+        second = images[Math.floor(Math.random() * images.length)]
     }
     while (second === third) {
         second = images[Math.floor(Math.random() * images.length)]
+    }
+    while(third === second) {
+        third = images[Math.floor(Math.random() * images.length)]
     }
     while (third === first) {
         third = images[Math.floor(Math.random() * images.length)]
@@ -74,16 +78,43 @@ function About() {
 function Project() {
     return (
         <section className="projects">
-            <div className="project-respire-square">
-                <h3>Respire</h3>
+            <div>
+                <h3>Financial Helper</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
+                {/* <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a> */}
             </div>
 
-            <div className="project-speak-girl-square">
-                <h3>Speak Girl</h3>
-                <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
+
+            <div>
+                <h3>Natal Dynamic</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                {/* <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a> */}
             </div>
+
+            <div>
+                <h3>Speak Girl</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                {/* <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a> */}
+            </div>
+
+            <div>
+                <h3>Respire</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                {/* <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a> */}
+            </div>
+
+            <div>
+                <h3>SayNo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                {/* <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a> */}
+            </div>
+
+            <div>
+                <h3>˜</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                {/* <a href="/projects" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a> */}
+            </div>
+            
         </section>
     )
 }

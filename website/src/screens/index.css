@@ -85,10 +85,12 @@
 .projects {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.project-respire-square {
-  width: 50%;
+.projects > :is(div) {
+  width: 49%;
   height: 20em;
   background-color: black;
   color: #000;
@@ -96,50 +98,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image:
-    linear-gradient(to bottom, #fff,  #e8e8e8),
-
-    url('../static/assets/respire-xcode.png')
-  ;
+  background-image:linear-gradient(to bottom, #fff,  #e8e8e8);
   background-size: cover;
   margin: 2em 0;
-
   margin-right: 0.5em;
 }
 
-.project-respire-square > :is(h1,h2,h3) {
+.projects > :is(div) > :is(h1,h2,h3) {
   font-size: 2rem;
 }
 
-.project-respire-square > :is(p) {
+.projects > :is(div) > :is(p) {
   font-weight: 300;
   width: 90%;
   text-align: center;
   margin-bottom: 0.5em;
-}
-
-.project-speak-girl-square {
-  width: 50%;
-  height: 20em;
-  background-color: black;
-  color: #FFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  background-image:
-    linear-gradient(to bottom right, #1F0A17, #1F0A17),
-    url('../static/assets/speakgirl-xcode.png')
-  ;
-background-size: cover;
-  margin: 2em 0;
-  margin-left: 0.5em;
-}
-
-.project-speak-girl-square > :is(h1,h2,h3) {
-  font-size: 2rem;
-
 }
 
 .saiba-mais-link {

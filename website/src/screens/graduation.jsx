@@ -247,14 +247,6 @@ function CursosEmAndamento() {
             <div>
                 <img src={udemy} alt="" />
                 <div>
-                    <h3>Spring Boot Expert: JPA, RESTFul API, Security, JWT e Mais</h3>
-                    <small>Andamento</small>
-                </div>
-            </div>
-
-            <div>
-                <img src={udemy} alt="" />
-                <div>
                     <h3>API Testing with Python 3 & PyTest, Backend Automation 2021</h3>
                     <small>Andamento</small>
                 </div>
@@ -264,14 +256,6 @@ function CursosEmAndamento() {
                 <img src={udemy} alt="" />
                 <div>
                     <h3>Certificação Cisco CCNA 200-301 + 4 CURSOS</h3>
-                    <small>Andamento</small>
-                </div>
-            </div>
-
-            <div>
-                <img src={udemy} alt="" />
-                <div>
-                    <h3>Curso de Python 3 do Básico Ao Avançado (com projetos reais)</h3>
                     <small>Andamento</small>
                 </div>
             </div>
