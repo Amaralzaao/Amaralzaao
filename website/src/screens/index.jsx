@@ -34,7 +34,7 @@ function Banner() {
     let second = images[Math.floor(Math.random() * images.length)]
     let third = images[Math.floor(Math.random() * images.length)]
 
-    while (first == second || first == third || second == third) {
+    while (first === second || first === third || second === third) {
         first = images[Math.floor(Math.random() * images.length)]
         second = images[Math.floor(Math.random() * images.length)]
         third = images[Math.floor(Math.random() * images.length)]
@@ -64,7 +64,7 @@ function About() {
             Tenho 17 anos, me formei em 2021 no ensino médio com curso tecnólogo em Análise e Desenvolvimento de Sistemas no SESI/SENAI, contudo, 
             já estou matriculado na Faculdade SENAI, também com graduação em Análise e Desenvolvimento de Sistemas.
             </p>
-            <a href="https://www.linkedin.com/in/carlos-amaral-56a6881b3/" target={"_blank"} className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
+            <a href="https://www.linkedin.com/in/carlos-amaral-56a6881b3/" target="_blank" rel="noreferrer" className="saiba-mais-link">Saiba mais<i className="fas fa-chevron-right"></i></a>
         </section>
     )
 }
