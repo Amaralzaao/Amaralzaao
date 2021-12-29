@@ -66,7 +66,7 @@ function CursosConcluidos() {
             <h2>Cursos de aperfeiçoamento</h2>
             <small>Concluídos</small>
 
-            <div>
+            <div >
                 <img src={udemy} alt="" />
                 <div>
                     <h3>Build a Backend REST API with Python & Django - Advanced</h3>

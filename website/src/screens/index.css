@@ -168,10 +168,11 @@
   }
 
   .memojis {
-    display: none;
+    display: flex;
     flex-direction: row;
     align-items: center;
-    max-width: 100vw;
+    min-width: 100vw;
+
   }
 
   .about-index > :is(p) {
@@ -210,5 +211,24 @@
     width: 90vw; 
     height: fit-content;
     margin: 1em 0;
+  }
+  
+  .memojis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .first-memoji, .third-memoji {
+    width: 20vw;
+    height: auto;
+    filter: blur(2px);
+  }
+  
+  .second-memoji {
+    width: 50vw;
+    height: auto;
+    filter: drop-shadow(0px 0px 3px #0003);
   }
 }
