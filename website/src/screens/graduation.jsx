@@ -63,10 +63,18 @@ function UdemyCourses() {
 function CursosConcluidos() {
     return (
         <section className="graduation-academy">
-            <h2>Cursos de aperfeiçoamento</h2>
+            <h2>Cursos</h2>
             <small>Concluídos</small>
 
-            <div >
+            <div>
+                <img src={udemy} alt="" />
+                <div>
+                    <h3>HWS Swift Coding Challenges: Real Problems - Real Solutions</h3>
+                    <small>Concluído - 12/2021</small>
+                </div>
+            </div>
+
+            <div>
                 <img src={udemy} alt="" />
                 <div>
                     <h3>Build a Backend REST API with Python & Django - Advanced</h3>
