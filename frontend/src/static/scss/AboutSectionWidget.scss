@@ -1,0 +1,12 @@
+@import "./variables";
+
+.about-section-widget {
+    width: 60%;
+    text-align: justify;
+    margin: 2em auto;
+
+    p {
+        font-family: Montserrat;
+        color: $light-gray;
+    }
+}

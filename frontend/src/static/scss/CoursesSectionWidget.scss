@@ -1,0 +1,66 @@
+@import "./variables";
+
+.courses-section-widget {
+    display: flex;
+    flex-direction: column;
+
+    .filters {
+        color: #FFF;
+        padding: 1em 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+
+        select, button {
+            width: 24.5%;
+            background-color: #FFF1;
+            border: none;
+            border-radius: 6px;
+            color: $light_gray;
+            padding: 1em 1.5em;
+        }
+
+        button {
+            background-color: $default_purple;
+            transition: .05s ease-in-out;
+        }
+
+        button:hover {
+            box-shadow: 0 0 15px $default_purple;
+            cursor: pointer;
+        }
+    }
+
+    .courses-list {
+        .container {
+            padding: 1em;
+            background: #FFF1;
+            margin: .5em 0;
+            border-radius: 6px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+
+            img {
+                height: 5em;
+                border-radius: 6px;
+                margin-right: 1em;
+            }
+
+            .texts {
+                a {
+                    font-size: .7rem;
+                    color: $light_gray;
+                }
+
+                p {
+                    margin: .7em 0;
+                }
+            }
+        }
+    }
+}
