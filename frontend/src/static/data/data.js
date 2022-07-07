@@ -15,8 +15,6 @@ import linkedin from "../assets/social/linkedin.svg"
 import github from "../assets/social/github.svg"
 import email from "../assets/social/email.svg"
 
-export {data, status, plataforms, programmingLanguages}
-
 const status = [
     {
         id : 0,
@@ -723,3 +721,5 @@ const data = {
         },
     ]
 }
+
+export {data, status, plataforms, programmingLanguages}

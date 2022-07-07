@@ -7,8 +7,7 @@ export const IndexViewController = _ => {
     const [didFinishedAnimation, setDidFinishedAnimation] = useState(false)
 
     useEffect( () => {
-        // sleep(5000)
-        sleep(0)
+        sleep(5000)
         .then( _ => {
             setDidFinishedAnimation(true)
         })

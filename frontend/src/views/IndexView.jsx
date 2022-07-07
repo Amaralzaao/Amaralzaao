@@ -1,7 +1,5 @@
-import { useState } from "react";
 import { data } from "../static/data/data"
 import { AboutSectionWidget } from "../widgets/AboutSectionWidget";
-import { ContactSectionWidget } from "../widgets/ContactSectionWidget";
 import { CoursesSectionWidget } from "../widgets/CoursesSectionWidget";
 import { ExperienceSectionWidget } from "../widgets/ExperienceSectionWidget";
 import { LanguageSectionWidget } from "../widgets/LanguageSectionWidget";
