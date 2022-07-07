@@ -1,0 +1,42 @@
+@import "./variables";
+
+.contact-section-widget {
+    .container {
+        form {
+            display: flex;
+            flex-direction: column;
+            border-radius: 6px;
+            padding: 1em;
+            border: 1px solid $default-purple;
+            box-shadow: 0px 0px 10px $default-purple;
+            background: rgba(142, 0, 230, 0.2);
+            border-radius: 6px;
+            color: #FFF;
+            
+            input, textarea, button {
+                background: #FFF4;
+                font-family: Montserrat;
+                margin: 0.5em 0;
+                color: #FFF;
+                padding: 1em;
+                width: 100%;
+                border: none;
+                border-radius: 6px;
+            }
+
+            textarea {
+                min-width: 100%;
+                max-width: 100%;
+                min-height: 80px;
+            }
+
+            button {
+                border: 1px solid $default-purple;
+                box-shadow: 0px 0px 10px $default-purple;
+                border-radius: 6px;
+                background-color: $default-purple;
+                color: #FFF;
+            }
+        }
+    }
+}

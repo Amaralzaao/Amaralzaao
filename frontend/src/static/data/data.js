@@ -95,7 +95,10 @@ const plataforms = [
 
 const data = {
     name : "Carlos Alberto Barcelos do Amaral",
-    about : "Meu nome é Carlos Alberto Barcelos do Amaral, mesmo nome do meu avô paterno, porém adicionou o sobrenome da família da minha mãe, Barcelos. Na grande maioria me chamam de Carlos ou somente Amaral, que gosto muito. Tenho 18 anos, me formei em 2021 no ensino médio com curso tecnólogo em Análise e Desenvolvimento de Sistemas no SESI/SENAI, contudo, estou cursando Análise e Desenvolvimento de Sistemas na Faculdade SENAI. Apresento meu currículo. Vamos lá?",
+    about : "Hey what's up with you? Let me apresent myself for you... So, my name is Carlos Alberto Barcelos do Amaral, I'm 18 years old and nowadays I'm in the thecnical college of analysis and system development on SENAI. Well let me talk about my leisure moment... Currently I do not only go to skate but also play soccer, and obviously I'm coding 24/7. So, now I hope that your experience with my website is amazing and if you want, you can go to my instagram (@carlosamaral._) and talk with me :))",
+    contact : {
+        after : "Muito obrigado"
+    },
     socialMedia : [
         {
             name : "Github",
@@ -715,7 +718,7 @@ const data = {
         },
         {
             name : "Spanish",
-            note : 60,
+            note : 40,
             image : argentina
         },
     ]

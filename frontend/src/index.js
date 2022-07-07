@@ -11,6 +11,7 @@ import "./static/scss/AboutSectionWidget.scss"
 import "./static/scss/ExperienceSectionWidget.scss"
 import "./static/scss/LanguageSectionWidget.scss"
 import "./static/scss/CoursesSectionWidget.scss"
+import "./static/scss/ContactSectionWidget.scss"
 import "./static/scss/InitialAnimationView.scss"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
