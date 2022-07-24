@@ -9,7 +9,7 @@ export const IndexView = _ => {
 
     return (
         <div className="index-view">
-            <div style={{padding : '10%'}}>
+            <div className="container">
                 <div className="banner">
                     <h1>{data.name}</h1>
                     <h4>{data.areas[i].text} <span>|</span> {data.areas[i].subtitle}</h4>

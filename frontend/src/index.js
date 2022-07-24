@@ -13,6 +13,7 @@ import "./static/scss/LanguageSectionWidget.scss"
 import "./static/scss/CoursesSectionWidget.scss"
 import "./static/scss/ContactSectionWidget.scss"
 import "./static/scss/InitialAnimationView.scss"
+import "./static/scss/responsive.scss"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
