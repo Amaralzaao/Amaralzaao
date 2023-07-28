@@ -9,6 +9,7 @@
 - 🌱 I’m currently learning **Swift/SwiftUI and Kotlin**
 - 📫 How to reach me **Carlosabdoamaral@gmail.com**
 - 📄 Know about my experiences [https://www.linkedin.com/in/carlos-alberto-barcelos-do-amaral-56a6881b3/](https://www.linkedin.com/in/carlos-alberto-barcelos-do-amaral-56a6881b3/)
+- 💻 Visit my work account to see the contribution https://github.com/carlosabdoamaraldb1
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
